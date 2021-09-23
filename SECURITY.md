@@ -1,5 +1,5 @@
 # Security Policy
-Security Vulnerabilities are almost impossible at the moment because there are only small text files.
+The security policy will be in effect when there are functional accounts in the app.
 
 ## Supported Versions
 
@@ -14,3 +14,4 @@ Security Vulnerabilities are almost impossible at the moment because there are o
 
 To report a vulnerability, click on the issues tab and create a new issue. Title the issue "Security Vulnerability".
 
+ 
