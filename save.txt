@@ -1,0 +1,76 @@
+'''
+    FloatLayout:
+        orientation: 'vertical'
+        size: root.width, root.height
+        spacing: 20
+
+        MDToolbar:
+            title: 'Login'
+            pos_hint: {'top': 1}
+
+        Label:
+            text: 'School\n Bus\n Mate'
+            font_size: 60
+            #pos_hint: {'x': 0.5, 'y': 0.5}
+            color: (0,0,0,1)
+            pos_hint: {'x': 0, 'y': 0.2}
+
+        TextInput:
+            id: 'emailInput'
+            text: 'School Email'
+            multiline: False
+            height: '32dp'
+            size_hint_y: None
+            pos_hint: {'y': 0.4}
+
+        TextInput:
+            id: 'passInput'
+            text: 'Password'
+            multiline: False
+            height: '32dp'
+            size_hint_y: None
+            pos_hint: {'y': 0.32}
+
+        Button:
+            text: 'Login'
+            font_size: 20
+            size_hint: (0.13,0.07)
+            pos_hint: {'x': 0.44, 'y': 0.1}
+            on_release: app.root.current = 'home'
+
+'''
+'''
+
+class LoginLayout(FloatLayout):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.loginButton = Button(
+            text= 'Login',
+            size_hint= (0.3,0.1),
+            pos_hint= {'x': 0.35, 'y': 0.4}
+        )
+        self.signupButton = Button(
+            text= 'Sign Up',
+            size_hint= (0.3,0.1),
+            pos_hint= {'x': 0.35, 'y': 0.25}
+        )
+        self.mainTitle = Label(
+            text= 'School Bus Mate',
+            font_size= (72),
+            pos_hint= {'x': 0, 'y': 0.27}
+        )
+        self.authorSubtitle = Label(
+            text= 'Created by: Mr J Technologies 2021',
+            font_size= (20),
+            pos_hint= {'x': 0, 'y': -0.4}
+        )
+        self.add_widget(self.loginButton)
+        self.add_widget(self.signupButton)
+        self.add_widget(self.mainTitle)
+        self.add_widget(self.authorSubtitle)
+
+
+class MainApp(App):
+    def build(self):
+        return kv
+'''

@@ -1,0 +1,82 @@
+<LoginType>:
+
+    MDCard:
+        size_hint: None, None
+        size: 300, 400
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        elevation: 10
+        padding: 10
+        spacing: 0
+        orientation: 'vertical'
+
+        #MDLabel:
+        #    id: login_type_label
+        #    text: 'Who are you?'
+        #    font_size: 40
+        #    halign: 'center'
+        #    size_hint_y: None
+        #    height: self.texture_size[1]
+        #    color: app.theme_cls.accent_color
+        #    padding_y: 15
+
+        MDSeparator:
+            height: '30dp'
+            color: 1,1,1,1
+
+        MDLabel:
+            text: "I'm a Student"
+            font_size: 20
+            halign: 'center'
+            color: app.theme_cls.accent_color
+            adaptable_height: True
+
+        MDCheckbox:
+            active: True
+            group: 'who'
+            id: studentWho
+            size_hint: None, None
+            pos_hint: {'center_x': 0.5}
+            adaptable_height: True
+
+        MDLabel:
+            text: "I'm a Driver"
+            font_size: 20
+            halign: 'center'
+            color: app.theme_cls.accent_color
+            adaptable_height: True
+
+        MDCheckbox:
+            group: 'who'
+            id: driverWho
+            size_hint: None, None
+            pos_hint: {'center_x': 0.5}
+            adaptable_height: True
+
+        MDLabel:
+            text: "I'm an Admin"
+            font_size: 20
+            halign: 'center'
+            color: app.theme_cls.accent_color
+            adaptable_height: True
+
+        MDCheckbox:
+            group: 'who'
+            id: adminWho
+            size_hint: None, None
+            pos_hint: {'center_x': 0.5}
+            adaptable_height: True
+
+        MDRoundFlatButton:
+            text: 'CREATE ACCOUNT'
+            font_size: 12
+            pos_hint: {'center_x': 0.5}
+            on_press:
+                if studentWho.state == 'down':\
+                root.manager.current = 'home';\
+                app.snackCreate()
+                elif driverWho.state == 'down': \
+                root.manager.current = 'login'; \
+                app.warning_box()
+                elif adminWho.state == 'down': \
+                root.manager.current = 'login';\
+                app.warning_box()

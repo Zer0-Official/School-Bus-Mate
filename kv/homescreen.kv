@@ -1,0 +1,38 @@
+<HomeScreen>:
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDToolbar:
+            title: 'School Bus Mate'
+            right_action_items: [["dots-vertical", lambda x: app.triDotMenu(x) ]]
+            #left_action_items: [["menu", lambda x: app.triDotMenu(x)]] #add the logo here
+
+        MDBottomNavigation:
+
+            MDBottomNavigationItem:
+                name: 'seats'
+                text: 'Python'
+                icon: 'language-python'
+
+                MDLabel:
+                    text: 'Python'
+                    halign: 'center'
+
+            MDBottomNavigationItem:
+                name: 'routes'
+                text: 'C++'
+                icon: 'language-cpp'
+
+                MDLabel:
+                    text: 'I programming of C++'
+                    halign: 'center'
+
+            MDBottomNavigationItem:
+                name: 'reports'
+                text: 'JS'
+                icon: 'language-javascript'
+
+                MDLabel:
+                    text: 'JS'
+                    halign: 'center'
