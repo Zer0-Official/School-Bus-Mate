@@ -12,21 +12,17 @@
 
             MDBottomNavigationItem:
                 name: 'seats'
-                text: 'Python'
-                icon: 'language-python'
-
-                MDLabel:
-                    text: 'Python'
-                    halign: 'center'
+                text: 'Seats'
+                icon: 'seat-passenger'
+                on_tab_release:
+                    root.manager.current = 'seatscreen.kv'
 
             MDBottomNavigationItem:
                 name: 'routes'
-                text: 'C++'
-                icon: 'language-cpp'
-
-                MDLabel:
-                    text: 'I programming of C++'
-                    halign: 'center'
+                text: 'Routes'
+                icon: 'map'
+                on_tab_release:
+                    root.manager.current = 'routescreen.kv'
 
             MDBottomNavigationItem:
                 name: 'reports'
