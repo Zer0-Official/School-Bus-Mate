@@ -1,4 +1,4 @@
-<p align="right"> <img src="https://github.com/Zer0-Official/School-Bus-Mate/blob/master/images/title-cover.png?raw=true" width="30%" ></img> </p>
+<p align="center"> <img src="https://github.com/Zer0-Official/School-Bus-Mate/blob/master/images/title-cover.png?raw=true" width="30%" ></img> </p>
 
 # School-Bus-Mate 🏫🚌
 [![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-brightgreen)](https://www.python.org)
