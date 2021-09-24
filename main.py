@@ -1,4 +1,4 @@
-version = '0.0.1'
+version = '0.0.0'
 
 import kivy
 from kivy.metrics import dp
