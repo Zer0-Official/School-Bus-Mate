@@ -15,7 +15,7 @@ be released in the future as well.
 ## Future Features
 Here is a brief list of features we wish to implement:
 * Parents' app (can track bus)
-* list2
+* item2
 
 # Install and Run
 This app is easy to install for now. All you have to do is install the GitHub
