@@ -15,20 +15,18 @@
                 text: 'Seats'
                 icon: 'seat-passenger'
                 on_tab_release:
-                    root.manager.current = 'seatscreen.kv'
+                    root.manager.current = 'seats'
 
             MDBottomNavigationItem:
                 name: 'routes'
                 text: 'Routes'
                 icon: 'map'
                 on_tab_release:
-                    root.manager.current = 'routescreen.kv'
+                    root.manager.current = 'routes'
 
             MDBottomNavigationItem:
                 name: 'reports'
-                text: 'JS'
-                icon: 'language-javascript'
-
-                MDLabel:
-                    text: 'JS'
-                    halign: 'center'
+                text: 'Reports'
+                icon: 'account-alert'
+                on_tab_release:
+                    root.manager.current = 'reports'

@@ -1,6 +1,9 @@
 #:include kv/loginscreen.kv
 #:include kv/homescreen.kv
 #:include kv/logintype.kv
+#:include kv/seatscreen.kv
+#:include kv/routescreen.kv
+#:include kv/reportscreen.kv
 
 FloatLayout:
     WindowManager:
@@ -16,3 +19,12 @@ FloatLayout:
         HomeScreen:
             name: "home"
             id: home
+        SeatScreen:
+            name: 'seats'
+            id: seats
+        RouteScreen:
+            name: 'routes'
+            id: routes
+        ReportScreen:
+            name: 'reports'
+            id: reports

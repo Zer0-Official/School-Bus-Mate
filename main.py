@@ -44,6 +44,15 @@ class LoginType(Screen):
 class HomeScreen(Screen):
     pass
 
+class SeatScreen(Screen):
+    pass
+
+class RouteScreen(Screen):
+    pass
+
+class ReportScreen(Screen):
+    pass
+
 class WindowManager(ScreenManager):
     pass
 
@@ -71,7 +80,7 @@ class MainApp(MDApp):
     def warning_box(self):
         if not self.dialog:
             self.dialog = MDDialog(
-                text="This type of account is not available in this version. Please go to __site__ for other versions.",
+                text="Please go to (site) for this account type.",
                 buttons=[
                     MDFlatButton(
                         text="OK", text_color=self.theme_cls.primary_color,
