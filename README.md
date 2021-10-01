@@ -17,12 +17,12 @@ Here is a brief list of features we wish to implement:
 * Parents' app (can track bus)
 * Profiles (Students and Teacher)
 
-# Install and Run
+## Install and Run
 This app is easy to install for now. All you have to do is install the GitHub
 project files and install `requirements.txt` included in the files. After that,
 just run `main.py`.
 
-# How to Use
+## How to Use
 To use School Bus Mate, open `main.py` and run it. The login screen will popup.
 For now there are no passwords, so enter anything. Either login or signup. If
 you are signing up, the drivers and admins are not functional yet, so be a
@@ -30,18 +30,19 @@ student. You will then see the main screen. This screen is still a work in
 progress, so you can play around with it. If the app doesn't function or run,
 please refer to the `Problems` section below.
 
-# Problems
+## Problems
 If there are any problems running or using the app, please create a new issue
 in the GitHub project page. Our team will help you ASAP.
 
-# Credits
+## Credits
 * Ideas/Director: Kevin Jackson
 * PM/Dev/Design/Sales: @Zer0-Official
 * Dev/Design/Wiki: @GooglyTank
 
-# Contribute
+## Contribute
 If you want to contribute to the project, email [vlethestars10@gmail.com](vlethestars10@gmail.com)
 
 ## About Us
- Mr J Technologies was founded in 2021 by 2 high schoolers and a teacher to collaborate on a mobile app. Also, we do not put a period after Mr in our name. 🙃
- There may be a new app idea in the works...
+ J.A.V. Technologies (formerly 'Mr J Technologies') was founded in 2021 by 2
+ high schoolers and a teacher to collaborate on a mobile app. But, there may
+ already be more app ideas in the works...
