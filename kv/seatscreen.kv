@@ -2,5 +2,29 @@
     MDFloatLayout:
         orientation: 'vertical'
 
-        MDLabel:
-            text: 'Seats'
+        MDToolbar:
+            title: 'School Bus Mate'
+            right_action_items: [["dots-vertical", lambda x: app.triDotMenu(x) ]]
+
+        MDBottomNavigation:
+
+            MDBottomNavigationItem:
+                name: 'seats'
+                text: 'Seats'
+                icon: 'seat-passenger'
+                on_tab_release:
+                    root.manager.current = 'seats'
+
+            MDBottomNavigationItem:
+                name: 'routes'
+                text: 'Routes'
+                icon: 'map'
+                on_tab_release:
+                    root.manager.current = 'routes'
+
+            MDBottomNavigationItem:
+                name: 'reports'
+                text: 'Reports'
+                icon: 'account-alert'
+                on_tab_release:
+                    root.manager.current = 'reports'
