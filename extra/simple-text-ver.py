@@ -1,3 +1,11 @@
+'''
+This version was the first step in making the mobile app. We decided to start
+simple by making a very basic Python text version to acheive basic functionality
+and to demonstrate what the app would have in it. This version will not be
+updated or tested for bugs.
+'''
+
+
 seatList = []
 routeList = []
 postList = []
