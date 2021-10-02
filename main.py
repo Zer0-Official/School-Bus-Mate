@@ -53,6 +53,9 @@ class RouteScreen(Screen):
 class ReportScreen(Screen):
     pass
 
+class AnnounceScreen(Screen):
+    pass
+
 class WindowManager(ScreenManager):
     pass
 
@@ -105,7 +108,7 @@ class MainApp(MDApp):
         ).open()
 
 # Hidden Feature
-    def snackMrJ(self): #Please Use Hidden Ft.
+    def snackJAV(self): #Please Use Hidden Ft.
         Snackbar(
             text= 'What is the cat hair!?',
             snackbar_x="10dp",

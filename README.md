@@ -40,7 +40,7 @@ in the GitHub project page. Our team will help you ASAP.
 * Dev/Design/Wiki: @GooglyTank
 
 ## Contribute
-If you want to contribute to the project, email [vlethestars10@gmail.com](vlethestars10@gmail.com)
+If you want to contribute to the project, email [vlethestars10@gmail.com](mailto:vlethestars10@gmail.com)
 
 ## About Us
  J.A.V. Technologies (formerly 'Mr J Technologies') was founded in 2021 by 2
