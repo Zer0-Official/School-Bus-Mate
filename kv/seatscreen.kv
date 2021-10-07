@@ -1,3 +1,5 @@
+# PROBLEM: MDToolbar does not show up on this screen
+
 <SeatScreen>:
     MDFloatLayout:
         orientation: 'vertical'
@@ -28,3 +30,22 @@
                 icon: 'account-alert'
                 on_tab_release:
                     root.manager.current = 'reports'
+
+    MDCard:
+        size_hint: None, None
+        size: 300, 400
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        elevation: 10
+        padding: 25
+        spacing: 25
+        orientation: 'vertical'
+
+        MDLabel:
+            id: seatsHeader
+            text: 'Current Arrangements'
+            font_size: 35
+            halign: 'center'
+            size_hint_y: None
+            height: self.texture_size[1]
+            color: app.theme_cls.accent_color
+            padding_y: 15
