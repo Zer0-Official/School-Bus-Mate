@@ -1,5 +1,5 @@
 ## Code of Conduct
-Mistreating these rules will result in a temporary or permenant ban from the project.
+Mistreating these rules will result in a temporary or permanent ban from the project.
 
 ### Be nice to others
 No one likes being bullied or yelled at online. Don't judge anyone based on their race, gender, hair, age, body size, religion, disability, education, etc.
