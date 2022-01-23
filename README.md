@@ -19,7 +19,7 @@ Here is a brief list of features we wish to implement:
 
 ## Install and Run
 This app is easy to install for now. All you have to do is install the GitHub
-project files and install `requirements.txt` included in the files. After that,
+project. We will soon add `requirements.txt` to make it easier for you. After that,
 just run `main.py`.
 
 ## How to Use
