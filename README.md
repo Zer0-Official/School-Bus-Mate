@@ -5,34 +5,26 @@
 [![Version: 0.0.0](https://img.shields.io/badge/Version-0.0.0-blue)](https://www.github.com/Zer0-Official/School-Bus-Mate)
 [![Stable: No](https://img.shields.io/badge/Stable-no-red)](https://www.github.com/Zer0-Official/School-Bus-Mate)
 
-School Bus Mate is a tool to assist bus drivers and students by giving them the
-latest seat arrangements, bus routes, reports, announcements, and more. We use
-Python with Kivy to make this app. We want to have a polished design that is
-easy to use. The app is expected to release around May 2023 on Google Play for
-students and on Windows for drivers and administrators. An iOS version will
-be released in the future as well.
+School Bus Mate was a tool to assist bus drivers and students by giving them the
+latest seat arrangements, bus routes, reports, announcements, and more. We used
+Python with Kivy to make this app. We wanted to have a polished design that is
+easy to use. The app was expected to release around May 2023 on Google Play for
+students and on Windows for drivers and administrators.
+
+## The End
+School Bus Mate was ended in 2022 due to lack of funding. The project started
+getting expensive when servers and software were needed for the development of
+the app. The head developer @Zer0-Official said, "I promise, at some point in
+time, I will reboot and finish this project." The director replied, "Don't make
+that promise." jokingly.
 
 ## Future Features
-Here is a brief list of features we wish to implement:
+Here is a brief list of features we wished to implement:
 * Parents' app (can track bus)
 * Profiles (Students and Teacher)
 
-## Install and Run
-This app is easy to install for now. All you have to do is install the GitHub
-project. We will soon add `requirements.txt` to make it easier for you. After that,
-just run `main.py`.
-
 ## How to Use
-To use School Bus Mate, open `main.py` and run it. The login screen will popup.
-For now there are no passwords, so enter anything. Either login or signup. If
-you are signing up, the drivers and admins are not functional yet, so be a
-student. You will then see the main screen. This screen is still a work in
-progress, so you can play around with it. If the app doesn't function or run,
-please refer to the `Problems` section below.
-
-## Problems
-If there are any problems running or using the app, please create a new issue
-in the GitHub project page. Our team will help you ASAP.
+This project was cancelled in 2022 and is not working.
 
 ## Credits
 * Ideas/Director: Kevin Jackson
@@ -45,7 +37,7 @@ If you want to contribute to the project, email [vlethestars10@gmail.com](mailto
 
 ## About Us
  J.A.V. Technologies (formerly 'Mr J Technologies') was founded in 2021 by 2
- students and a teacher to collaborate on a mobile app. But, there may
- already be more app ideas in the works...
+ students and a teacher to collaborate on a mobile app. School Bus Mate was
+ cancelled in 2022 because of the lack of funding for the proper equipment.
 
 Ask for permission before using our code, logo files, etc.

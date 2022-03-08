@@ -1,3 +1,5 @@
+#:include kv/navigation.kv
+
 <HomeScreen>:
 
     MDBoxLayout:
@@ -9,6 +11,13 @@
             # add image
 
         MDBottomNavigation:
+
+            MDBottomNavigationItem:
+                name: 'home'
+                text: 'Home'
+                icon: 'home'
+                on_tab_release:
+                    root.manager.current = 'home'
 
             MDBottomNavigationItem:
                 name: 'seats'

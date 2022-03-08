@@ -33,6 +33,8 @@ import traceback
 from kivy.graphics import Color, RoundedRectangle
 import random
 
+print('\n\n\n   School Bus Mate Version: ' + version + '\n\n\n')
+print('   Developed by Vincent Estes of JAV Technologies.')
 theme = 'Light'
 
 class LoginScreen(Screen):
@@ -57,6 +59,9 @@ class AnnounceScreen(Screen):
     pass
 
 class WindowManager(ScreenManager):
+    pass
+
+class NavigationBar(Screen):
     pass
 
 class MainApp(MDApp):
@@ -110,7 +115,7 @@ class MainApp(MDApp):
 # Hidden Feature
     def snackJAV(self): #Please Use Hidden Ft.
         Snackbar(
-            text= 'What is the cat hair!?',
+            text= 'What in the cat hair!?',
             snackbar_x="10dp",
             snackbar_y="10dp",
             size_hint_x=(

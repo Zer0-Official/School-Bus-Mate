@@ -1,0 +1,38 @@
+<NavigationBar>:
+
+    MDBottomNavigation:
+
+        MDBottomNavigationItem:
+            name: 'home'
+            text: 'Home'
+            icon: 'home'
+            on_tab_release:
+                root.manager.current = 'home'
+
+        MDBottomNavigationItem:
+            name: 'seats'
+            text: 'Seats'
+            icon: 'seat-passenger'
+            on_tab_release:
+                root.manager.current = 'seats'
+
+        MDBottomNavigationItem:
+            name: 'routes'
+            text: 'Routes'
+            icon: 'map'
+            on_tab_release:
+                root.manager.current = 'routes'
+
+        MDBottomNavigationItem:
+            name: 'reports'
+            text: 'Reports'
+            icon: 'account-alert'
+            on_tab_release:
+                root.manager.current = 'reports'
+
+        MDBottomNavigationItem:
+            name: 'announce'
+            text: 'Announcements'
+            icon: 'bullhorn'
+            on_tab_release:
+                root.manager.current = 'announce'
